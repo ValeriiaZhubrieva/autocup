@@ -294,6 +294,7 @@ body {
   padding: 2rem 0 2.5rem;
   color: #fff;
   position: relative;
+  z-index: 2;
 }
 .about::before, .about::after {
   content: "";
@@ -301,7 +302,8 @@ body {
   width: 25.8125rem;
   height: 26.125rem;
   border-radius: 50%;
-  filter: blur(31.25rem);
+  filter: blur(15.625rem);
+  z-index: -1;
 }
 .about::before {
   background: linear-gradient(90deg, #b83001 40%, #f29101 100%);
